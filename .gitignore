@@ -1,0 +1,35 @@
+# 运行期数据与密钥
+data/
+*.db
+*.db-wal
+*.db-shm
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 环境变量（含令牌与密钥，禁止入库）
+.env
+.env.*
+!.env.example
+
+# 编辑器与系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 临时文件
+tmp/
+.screenshots/
+*.log
